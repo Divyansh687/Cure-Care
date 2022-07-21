@@ -1,0 +1,459 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  /* overflow-x: hidden; */
+}
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  /* overflow-x: hidden; */
+}
+div {
+  display: block;
+}
+/* .header {
+  position: fixed;
+} */
+.header1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
+  height: 48px;
+  padding: 0 112px;
+  border-bottom: 1px solid #999;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.number {
+  margin-left: -12px;
+  font-size: 16px;
+}
+.mail {
+  margin-left: -12px;
+  font-size: 16px;
+}
+.contact2 {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.icon {
+  height: 28px;
+  width: 24px;
+}
+.contact2-link:link,
+.contact2-link:visited {
+  color: #777;
+}
+.contact2-link:hover,
+.contact2-link:active {
+  color: rgb(233, 120, 54);
+}
+
+.header2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #66d1e4;
+  height: 88px;
+  padding: 0 48px;
+  border-bottom: 1px solid #999;
+}
+.logo:link,
+.logo:visited {
+  font-size: 48px;
+  color: #333;
+  text-decoration: none;
+  /* padding: 0 48px; */
+}
+.logo-title {
+  /* margin-left: -550px; */
+  font-size: 42px;
+  font-weight: 400;
+  margin-top: 2px;
+  font-family: initial;
+}
+.logo-gap {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+/* .logo-title1 {
+  margin-left: -800px;
+  font-size: 42px;
+  font-weight: 400;
+  margin-top: 2px;
+  font-family: initial;
+} */
+.logo1 {
+  height: 82px;
+  width: 88px;
+}
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  /* padding: 0 48px; */
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  /* padding: 5px, 20px; */
+  /* background: rgb(33, 33, 33) */
+  font-weight: 500;
+  font-size: 16px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711c;
+}
+.user-icon {
+  margin-right: 4px;
+  height: 36px;
+  width: 32px;
+}
+.login-link:link,
+.login-link:visited {
+  margin-top: -8px;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 32px;
+  margin: 0 auto;
+  /* background: rgb(247, 232, 227); */
+}
+.grid {
+  display: grid;
+  row-gap: 96px;
+  column-gap: 48px;
+}
+.grid:not(:last-child) {
+  margin-bottom: 40px;
+}
+.grid-2-cols {
+  grid-template-columns: 1fr 1fr;
+}
+.grid-center-v {
+  align-items: center;
+}
+
+/* .doctor-img {
+  height: 44px;
+  width: 42px;
+} */
+.our-team-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 160px; */
+  /* background: rgb(247, 232, 227); */
+}
+.doctor-name {
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 4px;
+  border-bottom: 2px solid #cf5829;
+}
+.our-team-title {
+  font-size: 48px;
+  margin-bottom: 8px;
+  font-family: initial;
+  color: #222;
+}
+.description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  padding: 0 16px 24px;
+}
+.sign {
+  height: 76px;
+  width: 106px;
+}
+.doctor-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  width: 100%;
+}
+
+.grid-4-cols {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.doctors {
+  display: flex;
+  flex-direction: column;
+}
+.doc-img {
+  height: 256px;
+  width: 226px;
+  margin-bottom: 12px;
+}
+.doc-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.doc-position {
+  color: #777;
+  font-size: 16px;
+  border-bottom: 2px solid #cf5829;
+  margin: 8px;
+}
+.doc-name {
+  color: #222;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.find-more {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 4px;
+  background-color: #1cc3cf;
+  color: rgb(245, 239, 239);
+  cursor: pointer;
+  border: none;
+}
+.find-more:hover {
+  background-color: tomato;
+  transition: all 0.3s;
+}
+
+.main-nav-link-f:hover,
+.main-nav-link-f:active {
+  color: #cf711c;
+}
+.main-nav-link-f:link,
+.main-nav-link-f:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  /* padding: 5px, 20px; */
+  /* background: rgb(33, 33, 33) */
+  font-weight: 500;
+  font-size: 16px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.bottom-grid1 {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 0 80px; */
+  margin-top: 42px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 24px;
+  margin-bottom: 0px;
+  /* margin-right: 80px;
+  margin-left: 80px; */
+  padding-bottom: 20px;
+  background-color: rgba(94, 87, 87, 0.1);
+  border-radius: 3px;
+}
+.copyright {
+  font-size: 16px;
+  color: #444;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+.footer-link:link,
+.footer-link:visited {
+  color: #444;
+}
+.footer-link:hover,
+.footer-link:active {
+  color: #cf711c;
+}
+
+/* Heart Test */
+.main-heading {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 18px;
+  font-size: 48px;
+  color: #cf5829;
+}
+.quote {
+  font-size: 20px;
+  font-family: initial;
+  font-weight: 400;
+  font-style: italic;
+  color: #555;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.grid-2--cols {
+  grid-template-columns: 1fr 1fr;
+}
+.test-field {
+  display: grid;
+  grid-template-rows: (10, 1fr);
+  column-gap: 32px;
+  row-gap: 20px;
+}
+.test-field label {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+.test-field input,
+.test-field select {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: #faeadc;
+  border-radius: 9px;
+  box-shadow: 0 -4px 5px rgba(0, 0, 0, 0.1);
+}
+.test-field input::placeholder {
+  color: #aaa;
+}
+.submit-btn {
+  background-color: #e08332;
+  color: #fdf2e9;
+  /* align-self: end; */
+  padding: 12px;
+  border: none;
+  border-radius: 24px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.submit-btn:hover {
+  background-color: rgb(194, 114, 10);
+  color: #fdf2e9;
+  box-shadow: 0 4px 2px rgb(0 0 0 / 40%);
+}
+.grid2 {
+  display: grid;
+  column-gap: 24px;
+  max-width: 1500px;
+  padding: 0 32px;
+  margin: 0 auto;
+  /* align-items: center; */
+}
+
+.heart-img {
+  height: 700px;
+  width: 100%;
+  border-radius: 4px;
+}
+/* .all-img {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+} */
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.para {
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 16px;
+}
+.liver-img {
+  height: 640px;
+  width: 100%;
+  border-radius: 4px;
+}
+.kidney-img {
+  height: 570px;
+  width: 100%;
+  border-radius: 4px;
+}
+.diabetes-img {
+  height: 570px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+/* Testing */
+.test-yourself {
+  font-size: 92px;
+  background-color: rgb(189, 231, 231);
+  /* font-style: oblique; */
+  font-family: initial;
+  font-weight: 400;
+  color: #f0a55f;
+  /* border-top: 2px solid #457cce;
+  border-bottom: 2px solid #457cce; */
+  margin-top: 48px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.container2 {
+  max-width: 100%;
+  padding: 0 32px;
+  margin: 0 auto;
+  /* background: rgb(247, 232, 227); */
+}
+.test {
+  display: flex;
+  flex-direction: column;
+}
+.test-img {
+  height: 350px;
+  width: 320px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 40%);
+}
+.test-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.test-position {
+  color: rgb(3, 2, 2);
+  font-size: 16px;
+  border-bottom: 2px solid #cf5829;
+  margin: 8px;
+  font-weight: 600;
+}
+.take-test {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 4px;
+  background-color: #1cc3cf;
+  color: rgb(245, 239, 239);
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+}
+.take-test2 {
+  text-decoration: none;
+  font-size: 12px;
+  color: rgb(245, 239, 239);
+  cursor: pointer;
+}
+.take-test:hover {
+  background-color: tomato;
+  transition: all 0.3s;
+  box-shadow: 0 6px 4px rgb(0 0 0 / 40%);
+}

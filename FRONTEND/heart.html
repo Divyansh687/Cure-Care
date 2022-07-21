@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="candc-watch2.png" />
+    <title>Cure & Care</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="heart.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header1">
+        <div class="contact">
+          <ion-icon class="icon" name="call-sharp"></ion-icon>
+          <p class="number">1234567890</p>
+          <ion-icon class="icon" name="mail"></ion-icon>
+          <p class="mail">cureandcare@gmail.com</p>
+        </div>
+        <div class="contact2">
+          <a class="contact2-link" href="www.facebook.com"
+            ><ion-icon class="icon" name="logo-facebook"></ion-icon
+          ></a>
+          <a class="contact2-link" href="www.twitter.com"
+            ><ion-icon class="icon" name="logo-twitter"></ion-icon
+          ></a>
+          <a class="contact2-link" href="www.linkedin.com"
+            ><ion-icon class="icon" name="logo-linkedin"></ion-icon
+          ></a>
+          <a class="contact2-link" href="www.google.com"
+            ><ion-icon class="icon" name="logo-google"></ion-icon
+          ></a>
+        </div>
+      </div>
+
+      <div class="header2">
+        <div class="logo-gap">
+          <div>
+            <a class="logo" href="#"
+              ><img class="logo1" src="candc-watch.png" alt="c&c-logo"
+            /></a>
+          </div>
+          <div>
+            <p class="logo-title">Cure & Care</p>
+          </div>
+        </div>
+        <div class="main-nav">
+          <ul class="main-nav-list">
+            <li>
+              <a class="main-nav-link" href="home2.html">Home</a>
+            </li>
+            <li><a class="main-nav-link" href="kidney.html">Kidney Test</a></li>
+            <li><a class="main-nav-link" href="liver.html">Liver Test</a></li>
+            <li><a class="main-nav-link" href="diabetes.html">Diabetes</a></li>
+            <li><a class="main-nav-link" href="#">Our Doctors</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="main-heading">HEART DISEASE TEST</h1>
+    <blockquote class="quote">"Healthy habits are your heart's desire."</blockquote>
+    <div class="section">
+      <div class="grid2 grid-2--cols">
+        <div>
+          <form class="test-field" name="test-form">
+            <div class="input">
+              <!-- <label for="age">Age</label> -->
+              <p class="para">Age</p>
+              <input
+                id="age"
+                type="number"
+                placeholder="e.g 20"
+                name="age"
+                required
+              />
+            </div>
+
+            <div class="input">
+              <!-- <label for="sex">Gender</label> -->
+              <p class="para">Gender</p>
+              <input
+                id="sex"
+                type="number"
+                placeholder=""
+                name="sex"
+                required
+              />
+            </div>
+            <div class="input">
+              <p class="para">Chest Pain Type</p>
+              <!-- <label for="chest-pain">Chest Pain Type</label> -->
+              <input
+                id="chest-pain"
+                type="number"
+                placeholder="0,1,2 or 3"
+                name="chest-pain"
+                required
+              />
+            </div>
+            <div class="input">
+              <p class="para">Resting Blood Pressure</p>
+              <!-- <label for="blood-pressure">Resting Blood Pressure (mmHg)</label> -->
+              <input
+                id="blood-pressure"
+                type="number"
+                name="blood-pressure"
+                placeholder=""
+                required
+              />
+            </div>
+            <div class="input">
+              <p class="para">Cholestrol</p>
+              <!-- <label for="cholestrol">Cholestrol (mg/dd)</label> -->
+              <input
+                id="cholestrol"
+                type="number"
+                placeholder=""
+                name="cholestrol"
+                required
+              />
+            </div>
+            <div class="input">
+              <p class="para">Fasting Blood Sugar</p>
+              <!-- <label for="blood-sugar">Fasting Blood Sugar</label> -->
+              <input
+                id="blood-sugar"
+                type="number"
+                placeholder="0 or 1"
+                name="blood-sugar"
+                required
+              />
+            </div>
+            <div class="input">
+              <p class="para">Resting ECG Result</p>
+              <!-- <label for="ecg">Resting ECG Result</label> -->
+              <input
+                id="ecg"
+                type="number"
+                placeholder="0,1 or 2"
+                name="ecg"
+                required
+              />
+            </div>
+            <div class="input">
+              <p class="para">Maximum Heart Rate</p>
+              <!-- <label for="heart-rate">Maximum Heart Rate</label> -->
+              <input
+                id="heart-rate"
+                type="number"
+                placeholder=""
+                name="heart-rate"
+                required
+              />
+            </div>
+            <div class="input">
+              <p class="para">Exercise Induced</p>
+              <!-- <label for="exercise">Exercise Induced</label> -->
+              <input
+                id="exercise"
+                type="number"
+                placeholder="0 or 1"
+                name="exercise"
+                required
+              />
+            </div >
+            <div class="input">
+              <p class="para">ST Depression</p>
+              <!-- <label for="st-dep">ST Depression</label> -->
+              <input
+                id="st-dep"
+                type="number"
+                placeholder=""
+                name="st-dep"
+                required
+              />
+            </div>
+            <button class="submit-btn">Submit</button>
+          </form>
+        </div>
+        <div class="grid-center">
+          <img class="heart-img all-img" src="heart-img.jpg" alt="Heart-Care-img" />
+        </div>
+      </div>
+    </div>
+
+    <footer class="bottom-grid1">
+      <div class="links">
+        <ul class="nav-list">
+          <li><a class="main-nav-link-f footer-link" href="#">About Us</a></li>
+          <li><a class="main-nav-link-f footer-link" href="#">Privacy Policy</a></li>
+          <li><a class="main-nav-link-f footer-link" href="#">Term Of Use</a></li>
+        </ul>
+      </div>
+      <div class="copyright ">Copyright by CURE&CARE 2021. All rights are reserved</div>
+    </div>
+  </footer>
+  </body>
+</html>

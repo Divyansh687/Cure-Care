@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  /* overflow-x: hidden; */
+}
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  /* overflow-x: hidden; */
+}
+div {
+  display: block;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #66d1e4;
+  height: 98px;
+  padding: 0 48px;
+}
+.logo:link,
+.logo:visited {
+  font-size: 48px;
+  color: #333;
+  text-decoration: none;
+  /* padding: 0 48px; */
+}
+.logo-title {
+  /* margin-left: -850px; */
+  font-size: 42px;
+  font-weight: 400;
+  margin-top: 2px;
+  font-family: initial;
+}
+.logo-title1 {
+  /* margin-left: -800px; */
+  font-size: 42px;
+  font-weight: 400;
+  margin-top: 2px;
+  font-family: initial;
+}
+.logo1 {
+  height: 82px;
+  width: 80px;
+}
+.logo-gap {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  /* padding: 0 48px; */
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  /* padding: 5px, 20px; */
+  /* background: rgb(33, 33, 33) */
+  font-weight: 500;
+  font-size: 16px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711c;
+}
+.main-content {
+  background-color: #fdf2e9;
+  background-image: linear-gradient(
+      rgba(20, 20, 34, 0.4),
+      rgba(20, 20, 34, 0.8)
+    ),
+    url(istockphoto-1288871608-170667a.jpg);
+  background-size: cover;
+}
+.container {
+  max-width: 500px;
+  margin: 4em auto;
+  background-color: rgb(140, 214, 180);
+  padding-top: 4px;
+  padding-bottom: 8px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 138px;
+}
+.signup-container {
+  margin-bottom: 102px;
+}
+.text-center {
+  text-align: center;
+  margin: 16px;
+  font-size: 16px;
+}
+.img-logo {
+  height: 42px;
+  width: 54px;
+}
+.content-bottom {
+  padding: 0 4em;
+  margin: 0 1em;
+  position: relative;
+  z-index: 1;
+}
+
+.signin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 8px 2px;
+  text-align: center;
+}
+.signin-form input,
+select {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: #fdf2e9;
+  border-radius: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  margin: 4px;
+}
+.password {
+  margin-bottom: 2px;
+}
+.signin-form input::placeholder {
+  color: #aaa;
+}
+.forgot-link:link,
+.forgot-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  transition: all 0.3s;
+  cursor: pointer;
+  padding-left: 282px;
+  margin-bottom: 4px;
+}
+.forgot-link:hover,
+.forgot-link:active {
+  color: #1973af;
+}
+
+.btn,
+.btn:visited,
+.btn:link {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 16px 164px;
+  border: none;
+  font-family: inherit;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin-bottom: 4px;
+}
+.btn:hover,
+.btn:active {
+  color: #e23d3d;
+}
+.btn-form {
+  /* padding: 12px; */
+  background-color: #1973af;
+  color: #3a3734;
+  align-self: end;
+}
+
+.text-sign-up {
+  font-size: 12px;
+  font-family: inherit;
+  font-style: italic;
+}
+.sign-up-link:link,
+.sign-up-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #db5555;
+  font-size: 12px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.sign-up-link:hover,
+.sign-up-link:active {
+  color: #1973af;
+}
+.btn-link{
+  text-decoration: none;
+}
+.btn-link:hover {
+  color: #e23d3d;
+}
+.btn-link:link,
+.btn-link:visited{
+ color: #3a3734;
+}
+.bottom-grid1 {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 0 80px; */
+  margin-top: 8px;
+  margin-bottom: 0px;
+  margin-right: 80px;
+  margin-left: 80px;
+  padding-bottom: 48px;
+}
+.copyright {
+  font-size: 16px;
+  color: #bbb;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+.footer-link:link,
+.footer-link:visited {
+  color: #bbb;
+}
+.footer-link:hover,
+.footer-link:active {
+  color: #cf711c;
+}
+.text {
+  font-weight: bold;
+  font-size: 32px;
+  font-family: inherit;
+  font-style: italic;
+}

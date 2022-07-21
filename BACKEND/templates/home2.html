@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="candc-watch2.png" />
+    <title>Cure & Care</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{{ url_for('static',filename = 'home.css')}}" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header1">
+        <div class="contact">
+          <ion-icon class="icon" name="call-sharp"></ion-icon>
+          <p class="number">1234567890</p>
+          <ion-icon class="icon" name="mail"></ion-icon>
+          <p class="mail">cureandcare@gmail.com</p>
+        </div>
+        <div class="contact2">
+          <a class="contact2-link" href="www.facebook.com"
+            ><ion-icon class="icon" name="logo-facebook"></ion-icon
+          ></a>
+          <a class="contact2-link" href="www.twitter.com"
+            ><ion-icon class="icon" name="logo-twitter"></ion-icon
+          ></a>
+          <a class="contact2-link" href="www.linkedin.com"
+            ><ion-icon class="icon" name="logo-linkedin"></ion-icon
+          ></a>
+          <a class="contact2-link" href="www.google.com"
+            ><ion-icon class="icon" name="logo-google"></ion-icon
+          ></a>
+        </div>
+      </div>
+
+      <div class="header2">
+        <div class="logo-gap">
+          <div>
+            <a class="logo" href="#"
+              ><img class="logo1" src="/static/img/candc-watch.png" alt="c&c-logo"
+            /></a>
+          </div>
+          <div>
+            <p class="logo-title">Cure & Care</p>
+          </div>
+        </div>
+        <div class="main-nav">
+          <ul class="main-nav-list">
+            <li>
+              <a class="main-nav-link" href="http://127.0.0.1:5000/heart">Heart Test</a>
+            </li>
+            <li><a class="main-nav-link" href="http://127.0.0.1:5000/liver">Liver Test</a></li>
+            <li><a class="main-nav-link" href="http://127.0.0.1:5000/kidney">Kidney Test</a></li>
+            <li><a class="main-nav-link" href="http://127.0.0.1:5000/diabetes">Diabetes Test</a></li>
+            <li><a class="main-nav-link" href="#">Our Doctors</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="our-team">
+      <div class="container grid grid-2-cols grid-center-v">
+        <div class="our-team-text">
+          <div class="doctor-name">Dr. Stephanie Wosniack</div>
+          <h1 class="our-team-title">OUR TEAM</h1>
+          <p class="description">
+            Dr. Stephanie Wosniack is is dedicated to providing her patients
+            with the best possible care. We at Cure and Care are focused on
+            helping you. After receiving successful care for various aches and
+            pains over the years, Dr. Wosniack found her calling to help others
+            get well.
+          </p>
+          <img class="sign" src="/static/img/signature.png" alt="doc-sign" />
+        </div>
+        <div class="our-team-img">
+          <img class="doctor-img" src="/static/img/our-doctor-img.jpg" alt="doc-img" />
+        </div>
+      </div>
+      <div class="container grid grid-4-cols grid-center-v">
+        <div class="doctors doctor1">
+          <div>
+            <img class="doc-img" src="/static/img/doc-1.jpg" alt="doctor-img" />
+          </div>
+          <div class="doc-desc">
+            <p class="doc-position">Heart Specialist</p>
+            <h2 class="doc-name">Derrick Gray</h2>
+            <button class="find-more">Find out more!!</button>
+          </div>
+        </div>
+        <div class="doctors doctor2">
+          <div>
+            <img class="doc-img" src="/static/img/doc-2.jpg" alt="doctor-img" />
+          </div>
+          <div class="doc-desc">
+            <p class="doc-position">Kidney Specialist</p>
+            <h2 class="doc-name">Cary Bond</h2>
+            <button class="find-more">Find out more!!</button>
+          </div>
+        </div>
+        <div class="doctors doctor3">
+          <div>
+            <img class="doc-img" src="/static/img/doc-3.jpg" alt="doctor-img" />
+          </div>
+          <div class="doc-desc">
+            <p class="doc-position">Liver Specialist</p>
+            <h2 class="doc-name">Mary Osborne</h2>
+            <button class="find-more">Find out more!!</button>
+          </div>
+        </div>
+        <div class="doctors doctor4">
+          <div>
+            <img class="doc-img" src="/static/img/doc-4.jpg" alt="doctor-img" />
+          </div>
+          <div class="doc-desc">
+            <p class="doc-position">General Physician</p>
+            <h2 class="doc-name">Nena Blanchard</h2>
+            <button class="find-more">Find out more!!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testing">
+      <h1 class="test-yourself">!! Test Yourself !!</h1>
+      <div class="container2 grid grid-4-cols grid-center-v">
+        <div class="heart test">
+          <div>
+            <img class="test-img" src="/static/img/heart-img2.jpg" alt="heart-img" />
+          </div>
+          <div class="test-desc">
+            <p class="test-position">Heart Disease Test</p>
+            <button class="take-test"><a class="take-test2" href="heart.html">TAKE A TEST</a></button>
+          </div>
+        </div>
+        <div class="liver test">
+          <div>
+            <img class="test-img" src="/static/img/liver-img2.jpg" alt="liver-img" />
+          </div>
+          <div class="test-desc">
+            <p class="test-position">Liver Disease Test</p>
+            <button class="take-test"><a class="take-test2" href="liver.html">TAKE A TEST</a></button>
+          </div>
+        </div>
+        <div class="kidney test">
+          <div>
+            <img class="test-img" src="/static/img/kidney-img2.jpg" alt="kidney-img" />
+          </div>
+          <div class="test-desc">
+            <p class="test-position">Kidney Disease Test</p>
+            <button class="take-test"><a class="take-test2" href="kidney.html">TAKE A TEST</a></button>
+          </div>
+        </div>
+        <div class="diabeties test">
+          <div>
+            <img class="test-img" src="/static/img/diabeties-img2.jpg" alt="diabetes-img" />
+          </div>
+          <div class="test-desc">
+            <p class="test-position">Diabetes Disease Test</p>
+            <button class="take-test"><a class="take-test2" href="diabetes.html">TAKE A TEST</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bottom-grid1">
+      <div class="links">
+        <ul class="nav-list">
+          <li><a class="main-nav-link-f footer-link" href="#">About Us</a></li>
+          <li><a class="main-nav-link-f footer-link" href="#">Privacy Policy</a></li>
+          <li><a class="main-nav-link-f footer-link" href="#">Term Of Use</a></li>
+        </ul>
+      </div>
+      <div class="copyright ">Copyright by CURE&CARE 2021. All rights are reserved</div>
+    </div>
+  </footer>
+  </body>
+</html>
